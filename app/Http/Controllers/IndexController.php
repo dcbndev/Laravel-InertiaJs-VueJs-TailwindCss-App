@@ -8,14 +8,14 @@ class IndexController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Home', [
+        return inertia('Home', [
             'title' => 'Home!'
         ]);
     }
 
     public function about()
     {
-        return Inertia::render('About', [
+        return inertia('About', [
             'title' => 'About'
         ]);
     }
