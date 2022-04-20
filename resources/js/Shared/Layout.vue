@@ -2,12 +2,12 @@
     <div class="container mx-auto">
         <ul>
             <li>
-                <Link href="/">
+                <Link :href="route('home')">
                     Home
                 </Link>
             </li>
             <li>
-                <Link href="/about">
+                <Link :href="route('about')">
                     About
                 </Link>
             </li>
