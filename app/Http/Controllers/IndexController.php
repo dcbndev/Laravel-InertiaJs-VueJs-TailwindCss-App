@@ -12,4 +12,11 @@ class IndexController extends Controller
             'title' => 'Home!'
         ]);
     }
+
+    public function about()
+    {
+        return Inertia::render('About', [
+            'title' => 'About'
+        ]);
+    }
 }
