@@ -1,4 +1,7 @@
 <template>
+    <Head>
+        <title>About page</title>
+    </Head>
     <AppLayout>
         <h1>{{ title }}</h1>
     </AppLayout>
@@ -6,10 +9,11 @@
 
 <script>
 import AppLayout from "../Layouts/App"
+import { Head } from "@inertiajs/inertia-vue3"
 
 export default {
     components: {
-        AppLayout
+        AppLayout, Head
     },
     props: {
         title: String

@@ -9,14 +9,14 @@ class IndexController extends Controller
     public function index()
     {
         return inertia('Home', [
-            'title' => 'Home!'
+            'title' => 'Home page'
         ]);
     }
 
     public function about()
     {
         return inertia('About', [
-            'title' => 'About'
+            'title' => 'About page'
         ]);
     }
 }
